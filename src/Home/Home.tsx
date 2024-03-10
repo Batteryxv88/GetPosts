@@ -1,6 +1,5 @@
 import cls from './Home.module.scss'
-import { useGetPostsQuery } from "../Store/apiSlice";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { api } from '../Store/apiSlice';
 
 type Post = {
